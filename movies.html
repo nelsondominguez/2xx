@@ -1,0 +1,164 @@
+<!doctype html>
+
+<!-- this is beginning of the html the browser will process -->
+<html>
+
+<!-- information used by the browser -->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <!-- displayed anywhere the title is used for the browser, search engines, etc. -->
+
+    <title>inside out - Nelson Dominguez - movies</title>
+
+    <!-- used to display information about the page by search engines and other sites looking at our page. -->
+
+    <meta name="description" content="inside out is a class project we use to learn html." />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<!-- content displayed in the browser window -->
+
+<body>
+
+    <header>
+        <h1><a href="index.php">inside out -movies</a></h1>
+        <h2>continuously falling forward in to the light...</h2>
+        <nav>
+            <ul>
+                <li><a href="love.html">love</a>
+                    <ul>
+                        <li><a href="things.html">things</a>
+                            <ul>
+                                <li><a href="music.html">music</a></li>
+                                <li><a href="movies.html">movies</a></li>
+                                <li><a href="books.html">books</a></li>
+                                <li><a href="websites.html">websites</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="people.html">people</a>
+                            <ul>
+                                <li><a href="family.html">family</a></li>
+                                <li><a href="friends.html">friends</a></li>
+                                <li><a href="others.html">others</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="who.html">who</a>
+                    <ul>
+                        <li><a href="i.html">i</a>
+                            <ul>
+                                <li><a href="was_then.html">was then</a></li>
+                                <li><a href="am_now.html">am now</a></li>
+                                <li><a href="will_be.html">will be</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="challenges.html">challenges</a>
+                    <ul>
+                        <li><a href="behind_me.html">behind me</a></li>
+                        <li><a href="ahead_of_me.html">a head of me</a></li>
+                    </ul>
+                </li>
+                <li><a href="you.html">you</a>
+                    <ul>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="settings.html">settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="mainScreen">
+            <iframe id="movieFrame" src="https://www.youtube.com/embed/PJlmYh27MHg" frameborder="0" allowfullscreen>
+            your browser currently does not support iframes. Please contact the website administrator if you believe this is happening in error.
+            </iframe>
+        </div>
+
+    </section>
+    <section>
+        <div id="cardsWrapper">
+            <div class="card" onClick="changeVideo('PJlmYh27MHg')">
+                <div class="cardImage" style="background-image: url(assets/images/Jurassic_Park_poster.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Jurassic Park</h4>
+                    <div class="cardInfoText">
+                        <p>Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park. But will everything go according to plan? A park employee attempts to steal dinosaur embryos, critical security systems are shut down and it now becomes a race for survival with dinosaurs roaming freely over the island.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" onClick="changeVideo('fpK36FZmTFY')">
+            <div class="cardImage" style="background-image: url(assets/images/220px-WillyWonkaMoviePoster.jpg);"></div>
+            <div class="cardInfo">
+                <h4>Willy Wonka and the Chocolate Factory </h4>
+                <div class="cardInfoText">
+                    <p>The world is astounded when Willy Wonka, for years a recluse in his factory, announces that five lucky people will be given a tour of the factory, shown all the secrets of his amazing candy, and one will win a lifetime supply of Wonka chocolate. Nobody wants the prize more than young Charlie, but as his family is so poor that buying even one bar of chocolate is a treat, buying enough bars to find one of the five golden tickets is unlikely in the extreme. But in movie land, magic can happen. Charlie, along with four somewhat odious other children, get the chance of a lifetime and a tour of the factory. Along the way, mild disasters befall each of the odious children, but can Charlie beat the odds and grab the brass ring?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onClick="changeVideo('495n559vPKo')">
+            <div class="cardImage" style="background-image: url(assets/images/Toy_Story.jpg);"></div>
+            <div class="cardInfo">
+                <h4>Toy Story</h4>
+                <div class="cardInfoText">
+                    <p>A little boy named Andy loves to be in his room, playing with his toys, especially his doll named "Woody". But, what do the toys do when Andy is not with them, they come to life. Woody believes that he has life (as a toy) well. However, he must worry about Andy's family moving, and what Woody does not know is about Andy's birthday party. Woody does not realize that Andy's mother gave him an action figure known as Buzz Lightyear, who does not believe that he is a toy, and quickly becomes Andy's new favorite toy. Woody, who is now consumed with jealousy, tries to get rid of Buzz. Then, both Woody and Buzz are now lost. They must find a way to get back to Andy before he moves without them, but they will have to pass through a ruthless toy killer, Sid Phillips.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onClick="changeVideo('OqCTq3EeDcY')">
+            <div class="cardImage" style="background-image: url(assets/images/10Command56.jpg);"></div>
+            <div class="cardInfo">
+                <h4>The Ten Commandments</h4>
+                <div class="cardInfoText">
+                    <p>To escape the edict of Egypt's Pharaoh, Rameses I, condemning all newborn Hebrew males, the infant Moses is set adrift on the Nile in a reed basket. Saved by the pharaoh's daughter Bithiah, he is adopted by her and brought up in the court of her brother, Pharaoh Seti. Moses gains Seti's favor and the love of the throne princess Nefertiri, as well as the hatred of Seti's son, Rameses. When his Hebrew heritage is revealed, Moses is cast out of Egypt, and makes his way across the desert where he marries, has a son and is commanded by God to return to Egypt to free the Hebrews from slavery. In Egypt, Moses' fiercest enemy proves to be not Rameses, but someone near to him who can 'harden his heart'.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onClick="changeVideo('OqSg7WO4tT4')">
+            <div class="cardImage" style="background-image: url(assets/images/220px-Saving_Private_Ryan_poster.jpg);"></div>
+            <div class="cardInfo">
+                <h4>Saving Private Ryan</h4>
+                <div class="cardInfoText">
+                    <p>Opening with the Allied invasion of Normandy on 6 June 1944, members of the 2nd Ranger Battalion under Cpt. Miller fight ashore to secure a beachhead. Amidst the fighting, two brothers are killed in action. Earlier in New Guinea, a third brother is KIA. Their mother, Mrs. Ryan, is to receive all three of the grave telegrams on the same day. The United States Army Chief of Staff, George C. Marshall, is given an opportunity to alleviate some of her grief when he learns of a fourth brother, Private James Ryan, and decides to send out 8 men (Cpt. Miller and select members from 2nd Rangers) to find him and bring him back home to his mother...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onClick="changeVideo('969gXtFAcZU')">
+            <div class="cardImage" style="background-image: url(assets/images/220px-Jumanji_poster.jpg);"></div>
+            <div class="cardInfo">
+                <h4>Jumanji</h4>
+                <div class="cardInfoText">
+                    <p>After being trapped in a jungle board game for 26 years, a Man-Child wins his release from the game. But, no sooner has he arrived that he is forced to play again, and this time sets the creatures of the jungle loose on the city. Now it is up to him to stop them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="clear: both;"></div>
+    <footer>
+        <h4>this is the footer</h4>
+        <p>we place redundant information here</p>
+        <div id="footerTagLine">I am 7 inches left of normal</div>
+    </footer>
+    <script>
+        function changeVideo(vid) {
+            document.getElementById('movieFrame').src = 'https://www.youtube.com/embed/' + vid;
+            document.getElementById('movieFrame').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+
+</html>
