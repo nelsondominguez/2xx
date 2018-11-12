@@ -131,28 +131,28 @@
     background-size: auto;
 }
 
-.animal_farm {
-    background-image: url('../images/books/animal_farm.jpg');
+.walden-thoreau {
+    background-image: url('../images/books/walden-thoreau.jpg');
 }
 
-.lord_of_the_flies {
-    background-image: url('../images/books/lord_of_the_flies.jpg');
+.rye_catcher {
+    background-image: url('../images/books/rye_catcher.jpg');
 }
 
-.the_old_man_and_the_sea {
-    background-image: url('../images/books/the_old_man_and_the_sea.jpg');
+.thecelestineprophecy {
+    background-image: url('../images/books/thecelestineprophecy.jpg');
 }
 
-.catch-22 {
-    background-image: url('../images/books/catch-22.jpg');
+.henry_david_thoreau {
+    background-image: url('../images/books/henry_david_thoreau.jpg');
 }
 
-.treasure_island {
-    background-image: url('../images/books/treasure_island.jpg');
+.danielquinn_ishmael {
+    background-image: url('../images/books/danielquinn_ishmael.jpg');
 }
 
-.Dracula {
-    background-image: url('../images/books/Dracula.jpg');
+.the_case_for_christ {
+    background-image: url('../images/books/the_case_for_christ.jpg');
 }
 
 .frontLocation {
@@ -183,9 +183,9 @@
     position: absolute;
     color: #06f;
     font-family: 'latoregular', arial;
-    bottom: 6px;
-    font-size: 12px;
-    left: 6px;
+	bottom: 6px;
+	font-size: 12px;
+	left: 6px;
 }
 
 .backGoto a {
